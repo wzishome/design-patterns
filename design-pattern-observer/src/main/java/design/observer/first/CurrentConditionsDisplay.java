@@ -29,7 +29,6 @@ public class CurrentConditionsDisplay implements Observer {
 	 * @param pressure 压力
 	 * @see design.observer.first.Observer#update(float, float, float)
 	 */
-	@Override
 	public void update(float temp, float humidity, float pressure) {
 		this.temp = temp;
 		this.humidity = humidity;

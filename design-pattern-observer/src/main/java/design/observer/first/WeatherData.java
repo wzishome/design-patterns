@@ -19,7 +19,6 @@ public class WeatherData implements Subject {
 	 * @param observer
 	 * @see design.observer.first.Subject#registerObserver(design.observer.first.Observer)
 	 */
-	@Override
 	public void registerObserver(Observer observer) {
 		System.out.println("---------注册-------");
 		observers.add(observer);
@@ -31,7 +30,6 @@ public class WeatherData implements Subject {
 	 * @param observer
 	 * @see design.observer.first.Subject#removeObserver(design.observer.first.Observer)
 	 */
-	@Override
 	public void removeObserver(Observer observer) {
 		int index = observers.indexOf(observer);
 		if (index!=0) {
@@ -44,7 +42,6 @@ public class WeatherData implements Subject {
 	 * @auther hzm_dream_history@163.com
 	 * @see design.observer.first.Subject#notifyObservers()
 	 */
-	@Override
 	public void notifyObservers() {
 		System.out.println("----------notifyObservers-------------");
 		System.out.println("----------observers.size()-------------"+observers.size());
