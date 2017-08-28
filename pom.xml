@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-  	<module>design_pattern_1</module>
+  	<module>design-pattern-policy</module>
   	<module>design-pattern-observer</module>
   </modules>
 </project>
